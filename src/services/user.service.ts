@@ -8,7 +8,6 @@ export const userService = {
 
 async function login(data: object) {
     let user = await httpService.post('/account/login', data);
-    // let response = await httpService.post('https://api.chucknorris.io/jokes/random', data);
     console.log(user);
     _handleLogin(user);
     return user;
@@ -20,7 +19,6 @@ function _handleLogin(user:object) {
 }
 
 async function logout() {
-    // TODO: post?
     sessionStorage.clear();
 }
 

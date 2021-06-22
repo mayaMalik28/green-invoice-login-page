@@ -1,8 +1,6 @@
 import Axios from 'axios';
+const BASE_URL = '//jupiter.d.greeninvoice.co.il/api/v1'
 
-// const BASE_URL = '//jupiter.d.greeninvoice.co.il/api/v1';
-// const BASE_URL = 'api/v1';
-const BASE_URL = '';
 const userExample = {
     "id": "3606cec19144119e4e34e77621165f67",
     "firstName": "Maya",
